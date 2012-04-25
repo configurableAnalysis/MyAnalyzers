@@ -1,7 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
 # Bit Plotting
-triggerFilter = cms.EDFilter("TriggerFilter",
+pfht350PassPrescaleFilter = cms.EDFilter("TriggerFilter",
                              #directory = cms.untracked.string('myDirectory'),
                              #histLabel = cms.untracked.string('myHistLabel'),
                              #label = cms.string('myLabel'),
